@@ -1,0 +1,145 @@
+/*
+color 1: #ffab34(green)
+colorl 2: #56aac9(blue)
+color 3: #ac01bd(red)
+
+*/
+
+/*Global Styles*/
+
+.container{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    background-color: #ff8080;
+    color: #fff;
+}
+body{
+    margin: 0px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1{
+    margin: 0px;
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+.logo{
+    height: 100%;
+    width: 400px;
+    float: left;
+}
+
+.logo h1{
+    text-align: center;
+    padding-top: 15px;
+    font-family: 'Parisienne', cursive;
+}
+
+.menu{
+    height: 100%;
+    width: 400px;
+    float: right;
+}
+
+.menu li{
+    display: inline-block;
+    padding: 20px 10px 0px 0px;
+}
+
+/*Banner Styles*/
+#banner{
+      width: 100%;
+      height: 300px;
+      background: url("../img/school.jpg") center;
+      background-attachment: fixed;
+      background-size: cover;
+} 
+
+#banner h1{
+    text-align: center;
+    font-size: 3em;
+    padding-top: 10%;
+}
+
+/*About Styles*/
+
+#about{
+    width: 100%;
+    height: 600px;
+    background-color: #fac349;
+}
+
+#about article{
+    height: 350px;
+    width: 25%;
+    background-color: #fad123;
+    float: left;
+    padding: 20px;
+    margin-right: 45px;
+    margin-top: 50px;
+    border-radius: 10px;
+    border: 4px solid #333;
+}
+
+#about h1{
+    text-align: center;
+    font-size: 1.8em;
+}
+
+#about p{
+    text-align: justify;
+}
+/* Bio Styles*/
+
+#bio{
+    width: 100%;
+    display: block;
+    padding: 45px 0px;
+    background-color: #a23b45;
+}
+
+.bio-img{
+    width: 24%;
+    height: auto;
+    display: inline-block;
+}
+.img-container{
+    width: 100%;
+    
+}
+
+.img-container img{
+    width: 75%;
+    border-radius: 100%;
+    margin-bottom: 50px;
+    
+}
+
+.bio-info{
+    width: 75%;
+    height: auto;
+    background-color: red;
+    display: inline-block;
+    padding: 25px 0px;
+    border: 2px dashed #333;
+    border-radius: 10px;
+}
+
+.bio-info h1{
+    text-align: center;
+}
+
+.bio-info p{
+    text-align: justify;
+    padding: 0px 20px;
+}
