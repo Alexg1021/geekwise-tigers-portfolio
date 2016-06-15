@@ -143,3 +143,69 @@ ul{
     text-align: justify;
     padding: 0px 20px;
 }
+
+#contact{
+    padding: 45px 0;
+    display: inline-block;
+    width: 100%;
+    background: url("../img/white-lion.jpeg") center;
+    background-attachment: fixed;
+    background-repeat: none;
+    background-size: cover;
+    
+}
+#contact h1{
+    text-align: center;
+    color: red;
+    font-size: 2.5em;
+    margin: 10px 0;
+}
+.form-box{
+    height: 300px;
+    width: 500px;
+    padding: 20px;
+    background-color: rgba(0,0,0,.5);
+    margin: 0 auto;
+}
+
+#contact input{
+    height: 30px;
+    width: 100%;
+    border: 1px solid #fff;
+    margin-bottom: 10px;
+}
+
+#contact textarea{
+    height: 150px;
+    width: 100%;
+    border: 1px solid #fff;
+}
+
+/*footer styles*/
+
+footer{
+    padding: 50px 0;
+    background-color: #333;
+    width: 100%;
+    display: inline-block;
+}
+
+footer p{
+    text-align: center;
+    margin: 10px 0;
+}
+
+.icon-space{
+    width: 180px;
+    margin: 0 auto;
+}
+.icon-box{
+    height: 50px;
+    width: 50px;
+    background-color: #fff;
+    display: inline-block;
+}
+
+footer i{
+    font-size: 2em;
+}
